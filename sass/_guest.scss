@@ -1,0 +1,85 @@
+.guest {
+    height: 95rem;
+    padding: 8rem 6rem;
+
+    &__intro {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__heading {
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+    
+    &__span {
+        margin-right: 1.5rem;
+        background-color: $color-tertiary-light;
+        color: $color-tertiary-dark;
+        align-self: flex-start;
+        //margin-right: auto;
+    }
+
+
+    &__img {
+        width: 26rem;
+        height: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    &__pointer {
+        display: flex;
+        justify-content: center;
+
+        &--heading {
+            font-size: 1.8rem;
+        }
+    }
+
+    &__speaker {
+        display: grid;
+        grid-template-columns: -webkit-min-content;
+        grid-template-columns: min-content;
+        align-content: start;
+        
+
+        &__heading {
+            font-size: 1.6rem;
+            margin-top: 1rem;
+        }
+    }
+
+    &__speakers {
+        margin-top: 6rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1rem;
+    }
+
+}
+
+.p--1 {
+    margin-bottom: 4rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+}
+
+
+
+.p--3 {
+    font-size: 1.3rem;
+}
+
+.p--4 { 
+    font-size: 1.5rem;
+    margin-top: .6rem;
+}
+
+.row { padding: 1rem; }

@@ -1,0 +1,108 @@
+.courses {
+    height: 70rem;
+    background-color: $color-grey-light;
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    &__card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        grid-column-gap: 1rem;
+    }
+
+    &__text {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
+    &__link {
+        color: $color-primary;
+        
+    }
+}
+
+  
+
+.field {
+    display: grid;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, .16) ;
+
+    &__img {
+        width: 24rem;
+        //height: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    &__details {
+        padding: 1rem;
+        background-color: #fff;
+        //text-align: center;
+        margin-top: -1rem;
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    /*&__span {
+        margin-right: 1.5rem;
+        padding: .8rem;
+        background-color: $color-tertiary-light;
+        border-radius: 100%;
+        color: $color-tertiary-dark;
+        font-size: 1.2rem;
+        align-self: flex-start;
+        //margin-right: auto;
+    }*/
+
+    &__business {
+        display: flex;
+        //margin-bottom: 3rem;
+
+    }
+
+    &__heading {
+        font-size: 1.6rem;
+    }
+
+    &__brackets {
+        display: flex;
+        justify-content: flex-end;
+
+        p {
+            margin-right: 1rem;
+            color: $color-tertiary-dark;
+            padding: .2rem .5rem;
+            background-color: $color-tertiary-light;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+    }
+
+    &__span {
+        margin-right: 1.5rem;
+        background-color: $color-tertiary-light;
+        color: $color-tertiary-dark;
+        align-self: flex-start;
+        //margin-right: auto;
+    }
+}
+
+.span {
+    padding: .8rem;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    //margin-right: auto;
+}

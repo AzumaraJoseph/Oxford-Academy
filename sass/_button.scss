@@ -1,0 +1,64 @@
+.btn {
+    text-decoration: none;
+    padding: .8rem 1.8rem;
+    font-size: 2rem;
+
+    // change for the <button> element
+    border: none;
+    cursor: pointer;
+
+    &--courses {
+        color: #fff;
+        background-color: $color-primary;
+        border-radius: 1rem;
+    }
+
+    &--inquiry {
+        color: #fff;
+        background-color: $color-primary;
+        align-self: center;
+        margin-top: 4rem;
+        border-radius: 1rem;
+    }
+
+    &--duration {
+        color: $color-primary;
+        background-color: $color-tertiary-light;
+        justify-self: center;
+        border-radius: 1rem;
+    }
+
+    &--information {
+        color: #fff;
+        background-color: $color-primary;
+        margin-left: 3rem;
+        margin-bottom: 5rem;
+        padding: 1rem 1.8rem;
+        border-radius: 1rem;
+    }
+
+    &--submit {
+        color: #fff;
+        background-color: $color-primary;
+        padding: 1.6rem 1rem;
+        //transform: translateY(2px);
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        font-size: 1.6rem;
+    }
+}
+
+/*&__btn inquiry {
+    align-self: center;
+    margin-top: 4rem;
+}
+
+&__btn {
+        border: none;
+        font-size: 2rem;
+        color: #fff;s
+        padding: .8rem 1.8rem;
+        background-color: $color-primary;
+        border-radius: 1rem;
+        //text-align: center;
+    }*/

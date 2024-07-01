@@ -1,0 +1,58 @@
+//COLOR VARIABLES
+$color-primary: rgba(12, 12, 212, 0.938);
+$color-primary-dark: rgba(14, 14, 43, 0.877);
+$color-primary-light: rgba(86, 98, 131, 0.945);
+$color-secondary: rgba(194, 140, 22, 0.945);
+$color-tertiary: rgba(90, 82, 82, 0.938);
+$color-tertiary-light: rgba(241, 239, 239, 0.938);
+$color-tertiary-dark: rgba(63, 61, 61, 0.938);
+$color-grey-light: rgba(248, 248, 248, 0.993);
+
+
+.heading-1 {
+    color: $color-secondary;
+    font-size: 3rem;
+}
+
+.heading-1__small {
+    font-size: 2rem;
+}
+
+.heading-2 {
+    color: $color-tertiary-dark;
+    font-size: 3.5rem;
+}
+
+.heading-3 {
+    color: $color-tertiary-dark;
+    font-size: 1.8rem;
+}
+
+.heading-4 {
+    color: $color-tertiary-dark;
+    font-size: 1.8rem;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.container {
+    color: $color-tertiary;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    padding: 0 4rem;
+    //width: 114rem;
+}
+
