@@ -1,10 +1,13 @@
+# Exclude all node_modules directories
 node_modules/
+
+# Exclude all .env files
 .env
+
 icomoon.zip/
 
-# Ignore everything in the .vscode folder
+# Exclude all files in the .vscode directory, but include specific ones
 .vscode/*
-# Except these files
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
