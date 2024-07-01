@@ -6,7 +6,6 @@
 
     &__heading { 
         line-height: 1.2;
-        //margin-bottom: 3rem;
     }
 
     &__span {
@@ -14,7 +13,6 @@
         background-color: $color-tertiary-light;
         color: $color-tertiary-dark;
         align-self: flex-start;
-        //margin-right: auto;
     }
 
     &__text {
@@ -49,7 +47,6 @@
 
     &__img {
         width: 100%;
-        //height: 100%;
         border-radius: 1rem;
         display: block;
         -o-object-fit: cover;

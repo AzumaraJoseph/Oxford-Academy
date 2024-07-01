@@ -27,7 +27,6 @@
 
         &--2 {
             width: 40%;
-            //border-top: 2px solid $color-tertiary-light;
             display: grid;
             grid-template-columns: repeat(2, -webkit-max-content);
             grid-template-columns: repeat(2, max-content);
@@ -63,8 +62,6 @@
         background-color: $color-grey-light;
         margin-top: 1rem;
         text-align: center;
-        //display: flex;
-        //justify-content: space-around;     OR
         height: 12rem;
 
         display: grid;

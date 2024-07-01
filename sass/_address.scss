@@ -1,9 +1,6 @@
 .address {
     padding-bottom: 3.5rem;
     border-bottom: 1px solid #bebdbd;
-    /*display: flex;
-    justify-content: space-between;  OR*/
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 5.5rem;

@@ -40,7 +40,6 @@
 
     &__img {
         width: 24rem;
-        //height: 100%;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
@@ -48,7 +47,6 @@
     &__details {
         padding: 1rem;
         background-color: #fff;
-        //text-align: center;
         margin-top: -1rem;
         height: 17rem;
         display: flex;
@@ -56,20 +54,8 @@
         justify-content: space-around;
     }
 
-    /*&__span {
-        margin-right: 1.5rem;
-        padding: .8rem;
-        background-color: $color-tertiary-light;
-        border-radius: 100%;
-        color: $color-tertiary-dark;
-        font-size: 1.2rem;
-        align-self: flex-start;
-        //margin-right: auto;
-    }*/
-
     &__business {
         display: flex;
-        //margin-bottom: 3rem;
 
     }
 
@@ -96,7 +82,6 @@
         background-color: $color-tertiary-light;
         color: $color-tertiary-dark;
         align-self: flex-start;
-        //margin-right: auto;
     }
 }
 
@@ -104,5 +89,4 @@
     padding: .8rem;
     border-radius: 100%;
     font-size: 1.2rem;
-    //margin-right: auto;
 }

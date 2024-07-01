@@ -3,14 +3,6 @@
     background-image: url(../img/conference.jpg);
     background-repeat: no-repeat;
     margin-top: 7rem;
-    //position: relative;
-
-    /*&__img--2 {
-        //position: absolute;
-        //top: 50%;
-        margin-left: 47%;
-        margin-top: 25%;
-    }*/
 
     &__items {
         display: flex;
@@ -29,7 +21,6 @@
         font-size: 1.6rem;
         width: 45%;
         border-top-right-radius: 1rem;
-        //border-top-left-radius: 1rem;
         margin-top: 20rem;
         margin-right: 44rem;
     }
@@ -47,7 +38,6 @@
         background-color: $color-tertiary-light;
         color: $color-tertiary-dark;
         align-self: flex-start;
-        //margin-right: auto;
     }
 }
 
@@ -55,7 +45,6 @@
     margin-left: 47%;
     margin-top: 25%;
     fill: $color-primary;
-    //grid-row: 1 / span 2;
 }
 
 .field__business {
