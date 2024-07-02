@@ -1,2 +1,63 @@
-# Oxford-royale -academy
-Azumara Joseph - Cloned Oxford-royale -academy website
+# Oxford Royale Academy Project
+
+This is my personal project web application designed to showcase and manage courses, events, and resources offered by Oxford Royale Academy. It aims to provide an intuitive and user-friendly platform for students, instructors, and administrators.
+
+## Table of Contents
+
+- [Oxford Royale Academy Project](#oxford-royale-academy-project)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+
+  ## Live Demo
+You can see the live demo of the app [here](https://www.oxford-royale.com/).
+
+
+## Description
+
+The Oxford Royale Academy Project is a comprehensive web application that facilitates the management and dissemination of educational courses and resources. The project is built using modern web development technologies to ensure a seamless experience for all users.
+
+## Features
+
+- Browse and search for courses
+- Detailed course information and enrollment
+- Event management and calendar integration
+- User profiles for students and instructors
+- Resource library with downloadable materials
+- Responsive design for mobile and desktop
+
+## Installation
+
+To install and set up the Oxford Royale Academy Project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/AzumaraJoseph/Oxford-Academy.git
+
+# Navigate to the project directory
+cd Oxford-Academy
+
+# Install dependencies
+npm install
+
+# or if you use yarn
+yarn install
+
+
+## Bootstrap the application
+live-server
+
+## Deployed
+Deployed on [GitHub Pages](https://AzumaraJoseph.github.io/Oxford-Academy).
+
+
+## Built With
+- Vanilla JavaScript
+- HTML
+- CSS
+- Iconic Framework Icons
