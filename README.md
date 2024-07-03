@@ -33,10 +33,9 @@ npm install
 # or if you use yarn
 yarn install
 
-
-## Bootstrap the application
-live-server
 ```
+## Development server
+Run `live-server` for a dev server. Navigate to `http://127.0.0.1:8080/`. The app will automatically reload if you change any of the source files.
 
 ## Deployed
 Deployed on [GitHub Pages](https://AzumaraJoseph.github.io/Oxford-Academy).
